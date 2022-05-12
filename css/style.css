@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+:root {
+  --accent-color: #F7654A;
+  --dark-color: #404149;
+  --gray-color: #999;
+  --white-color: #fff;
+  --bg-color: #e5e5e5;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p.reviews {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 740px;
+  background: url("../img/first-screen-bg.jpg") center/cover no-repeat;
+}
+
+.header__top {
+  padding-top: 20px;
+  margin-bottom: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header__logo {
+  width: 60px;
+  height: 60px;
+}
+
+.header .burger {
+  width: 50px;
+  height: 50px;
+}
